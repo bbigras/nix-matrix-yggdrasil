@@ -1,3 +1,5 @@
+{ riotX ? false }:
+
 let
   sources = import ./nix/sources.nix;
   pkgs = import sources.nixpkgs {
@@ -20,4 +22,6 @@ buildGoModule {
 
   vendorSha256 = "1pvfrhmxbpkx8lbppah7xq0g52gxxg21pngcakj6d1zsam2yv775";
   subPackages = [ "cmd/dendrite-demo-yggdrasil" ];
+
+  patches = [ ] ++ lib.optional riotX ./riotx.patch;
 }
