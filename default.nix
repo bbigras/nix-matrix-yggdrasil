@@ -15,7 +15,7 @@ buildGoModule {
 
   src = fetchFromGitHub {
     owner = "matrix-org";
-    repo = "dendride";
+    repo = "dendrite";
     rev = "5eeefdadf8e3881dd7a32559a92be49bd7ddaf47";
     sha256 = "06x648xxzsi9g9jlb1r46m4qkj5lfa3v7kfz5z734kdgqgd9fll9";
   };
