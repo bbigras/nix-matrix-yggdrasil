@@ -20,7 +20,7 @@
           "name": "Cachix",
           "uses": "cachix/cachix-action@v6",
           "with": {
-            "name": "nix-config",
+            "name": "nix-matrix-yggdrasil",
             "signingKey": "'${{ secrets.CACHIX_SIGNING_KEY }}'"
           }
         },
@@ -45,7 +45,7 @@
           "name": "Cachix",
           "uses": "cachix/cachix-action@v6",
           "with": {
-            "name": "nix-config",
+            "name": "nix-matrix-yggdrasil",
             "signingKey": "'${{ secrets.CACHIX_SIGNING_KEY }}'"
           }
         },
