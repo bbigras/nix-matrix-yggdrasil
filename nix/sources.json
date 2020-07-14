@@ -11,18 +11,6 @@
         "url": "https://github.com/matrix-org/dendrite/archive/5eeefdadf8e3881dd7a32559a92be49bd7ddaf47.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
-    "niv": {
-        "branch": "master",
-        "description": "Easy dependency management for Nix projects",
-        "homepage": "https://github.com/nmattia/niv",
-        "owner": "nmattia",
-        "repo": "niv",
-        "rev": "0f50051d3c9afa1c8517a37618701ed57996ce21",
-        "sha256": "1p56j933z5dybgnsyxxj3cdr288ww9wsl90207g64fc3i9qcjgp6",
-        "type": "tarball",
-        "url": "https://github.com/nmattia/niv/archive/0f50051d3c9afa1c8517a37618701ed57996ce21.tar.gz",
-        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
-    },
     "nixpkgs": {
         "branch": "nixos-unstable",
         "description": "A read-only mirror of NixOS/nixpkgs tracking the released channels. Send issues and PRs to",
