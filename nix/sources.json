@@ -5,10 +5,10 @@
         "homepage": "",
         "owner": "matrix-org",
         "repo": "dendrite",
-        "rev": "489f34fed7fccd59c0788536894561157d1089c1",
-        "sha256": "0c39lsnsmc030smyf3r48a0gfwp111ckiqy2sj6vs1cgs031pn5n",
+        "rev": "470933789b4ae08cd33c0a1de3656673eb0ebe70",
+        "sha256": "19r6n10bi251diwvfrpngpqzq229a2bax8mdrgp4wg3lwy53ww3c",
         "type": "tarball",
-        "url": "https://github.com/matrix-org/dendrite/archive/489f34fed7fccd59c0788536894561157d1089c1.tar.gz",
+        "url": "https://github.com/matrix-org/dendrite/archive/470933789b4ae08cd33c0a1de3656673eb0ebe70.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "nixpkgs": {
@@ -17,10 +17,10 @@
         "homepage": "https://github.com/NixOS/nixpkgs",
         "owner": "NixOS",
         "repo": "nixpkgs-channels",
-        "rev": "a5cc7d3197705f933d88e97c0c61849219ce76c1",
-        "sha256": "0b7y2nv5nj776zh9jwir8fq1qrgcqpaap05qxlxp9qfngw12k6ji",
+        "rev": "5717d9d2f7ca0662291910c52f1d7b95b568fec2",
+        "sha256": "17gxd2f622pyss3r6cjngdav6wzdbr31d7bqx9z2lawxg47mmk1l",
         "type": "tarball",
-        "url": "https://github.com/NixOS/nixpkgs-channels/archive/a5cc7d3197705f933d88e97c0c61849219ce76c1.tar.gz",
+        "url": "https://github.com/NixOS/nixpkgs-channels/archive/5717d9d2f7ca0662291910c52f1d7b95b568fec2.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     }
 }
