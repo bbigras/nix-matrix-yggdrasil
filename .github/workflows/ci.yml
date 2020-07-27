@@ -16,7 +16,7 @@
           "name": "Nix",
           "uses": "cachix/install-nix-action@v10",
           "with": {
-            "skip_adding_nixpkgs_channel": false
+            "skip_adding_nixpkgs_channel": true
           }
         },
         {
@@ -29,7 +29,7 @@
         },
         {
           "name": "Build",
-          "run": "nix run -f '<nixpkgs>' nix-build-uncached -c nix-build-uncached"
+          "run": "nix run '((import (import ./nix/sources.nix).nixpkgs {}).nix-build-uncached)' -c nix-build-uncached"
         }
       ]
     },
@@ -44,7 +44,7 @@
           "name": "Nix",
           "uses": "cachix/install-nix-action@v10",
           "with": {
-            "skip_adding_nixpkgs_channel": false
+            "skip_adding_nixpkgs_channel": true
           }
         },
         {
@@ -57,7 +57,7 @@
         },
         {
           "name": "Build",
-          "run": "nix run -f '<nixpkgs>' nix-build-uncached -c nix-build-uncached --arg riotX true"
+          "run": "nix run '((import (import ./nix/sources.nix).nixpkgs {}).nix-build-uncached)' -c nix-build-uncached --arg riotX true"
         }
       ]
     },
