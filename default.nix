@@ -14,7 +14,7 @@ buildGoModule {
 
   src = fetchFromGitHub { inherit (sources.dendrite) owner repo rev sha256; };
 
-  vendorSha256 = "0gmxb5fr28cdmq0vfy0xppsj47868ybsml9x9y5sazpcw3xl8drg";
+  vendorSha256 = "0w939lnn9yqg0lray23rljqsyjsix6jpp56mq1wcwfvfqa9vnk3n";
   subPackages = [ "cmd/dendrite-demo-yggdrasil" ];
 
   patches = [ ] ++ lib.optional riotX ./riotx.patch;
