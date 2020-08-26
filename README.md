@@ -17,10 +17,10 @@ nix-env -if https://github.com/bbigras/nix-matrix-yggdrasil/tarball/master --sub
 
 Note that quite a bit of stuff will need to be downloaded and built since I can't build for aarch64 with github actions.
 
-`--arg riotX true` will enable a patch to make dendrite pretend supporting the right versions to stop RiotX from complaining. It doesn't seem possible to create an account with RiotX so you'll have to use something else like regular Riot or riot-web maybe.
+It doesn't seem possible to create an account with RiotX so you'll have to use something else like regular Riot or riot-web maybe.
 
 ```sh
-nix-env -if https://github.com/bbigras/nix-matrix-yggdrasil/tarball/master --arg riotX true
+nix-env -if https://github.com/bbigras/nix-matrix-yggdrasil/tarball/master
 ```
 
 # Run
