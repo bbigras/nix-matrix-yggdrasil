@@ -5,10 +5,10 @@
         "homepage": "",
         "owner": "matrix-org",
         "repo": "dendrite",
-        "rev": "42183bef508be3495ac429abf29b795f9c8d2a6e",
-        "sha256": "141lkhnqsysv6gik46hvhz9221hz17cxv1d80w91rpdpm95dkl8n",
+        "rev": "9af2f5f1f253a821cec660ef477c274d5cd13953",
+        "sha256": "1yyzwglwnfnh85rfm24k2sarsvsvn8p1c4r6jas6rzxfbzxcl7ls",
         "type": "tarball",
-        "url": "https://github.com/matrix-org/dendrite/archive/42183bef508be3495ac429abf29b795f9c8d2a6e.tar.gz",
+        "url": "https://github.com/matrix-org/dendrite/archive/9af2f5f1f253a821cec660ef477c274d5cd13953.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "nixpkgs": {
