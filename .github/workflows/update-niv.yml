@@ -13,7 +13,7 @@ jobs:
     - uses: cachix/install-nix-action@v10
       with:
         skip_adding_nixpkgs_channel: true
-    - run: GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }} nix-shell --run "niv update"
+    - run: GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }} nix run '((import (import ./nix/sources.nix).niv {}).niv)' -c niv update
     - uses: cachix/cachix-action@v6
       with:
         name: nix-matrix-yggdrasil
