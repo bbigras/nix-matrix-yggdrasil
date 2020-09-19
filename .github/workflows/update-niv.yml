@@ -17,7 +17,7 @@ jobs:
       with:
         name: nix-matrix-yggdrasil
         signingKey: '${{ secrets.CACHIX_SIGNING_KEY }}'
-    - run: cachix use niv.cachix.org
+    - run: cachix use niv
     - run: GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }} nix run '((import (import ./nix/sources.nix).niv {}).niv)' -c niv update
     - run: nix run '((import (import ./nix/sources.nix).nixpkgs {}).nix-build-uncached)' -c nix-build-uncached
     - run: nix-shell --run "echo OK"
