@@ -20,7 +20,6 @@ jobs:
     - run: cachix use niv
     - run: GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }} nix run '((import (import ./nix/sources.nix).niv {}).niv)' -c niv update
     - run: nix run '((import (import ./nix/sources.nix).nixpkgs {}).nix-build-uncached)' -c nix-build-uncached
-    - run: nix-shell --run "echo OK"
     - name: Create Pull Request
       uses: peter-evans/create-pull-request@v3
       with:
