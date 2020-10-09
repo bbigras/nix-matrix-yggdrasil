@@ -15,6 +15,6 @@ buildGoModule {
 
   patches = [ ./update-quic-go.patch ];
 
-  vendorSha256 = "0pk4mh599yy617laaig2yjlx85jk9zjzd7vjsvg37wjp2qp7j3rr";
+  vendorSha256 = "0kq92hac846lwmmpn4yndx97jf4gmx53fwgbswxzfz5mnpdb9npi";
   subPackages = [ "cmd/dendrite-demo-yggdrasil" ];
 }
