@@ -13,6 +13,6 @@ buildGoModule {
 
   src = fetchFromGitHub { inherit (sources.dendrite) owner repo rev sha256; };
 
-  vendorSha256 = "0mzadz9vdg7j3s44g1jagb4cshr2im214g6xv974w1xgrybxaiaj";
+  vendorSha256 = "1yxfqvh81sid04rl270r0yq4cn8hi2hk9g3f2fv3440v5jpsdzrw";
   subPackages = [ "cmd/dendrite-demo-yggdrasil" ];
 }
