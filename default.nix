@@ -14,7 +14,7 @@ with pkgs;
 
     src = fetchFromGitHub { inherit (sources.dendrite) owner repo rev sha256; };
 
-    vendorSha256 = "04kj8739aj3x10bvmsva9306j19axcyv4ij4dgawks7a8wd3hnw7";
+    vendorSha256 = "0rw5qd6srhh0p60zdw87z2xi4cpgnbk7v8fy9i3h9qvlbp41wi8h";
     subPackages = [ "cmd/dendrite-demo-yggdrasil" ];
   };
 
