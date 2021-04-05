@@ -21,7 +21,7 @@
         },
         {
           "name": "Cachix",
-          "uses": "cachix/cachix-action@v8",
+          "uses": "cachix/cachix-action@v9",
           "with": {
             "name": "nix-matrix-yggdrasil",
             "signingKey": "'${{ secrets.CACHIX_SIGNING_KEY }}'"
