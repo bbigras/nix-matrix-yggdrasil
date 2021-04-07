@@ -13,7 +13,7 @@ jobs:
     - uses: cachix/install-nix-action@v12
       with:
         extra_nix_config: "system-features = nixos-test benchmark big-parallel kvm"
-    - uses: cachix/cachix-action@v8
+    - uses: cachix/cachix-action@v10
       with:
         name: nix-matrix-yggdrasil
         signingKey: '${{ secrets.CACHIX_SIGNING_KEY }}'
